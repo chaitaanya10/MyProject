@@ -1,0 +1,43 @@
+## DevOps Basics:
+
+1. Git is used for version control.
+
+   * Commands: `git init`, `git add`, `git commit`, `git push`, `git pull`, `git branch`, `git merge`
+   * Local Repo vs Remote Repo
+
+2. GitHub/GitLab/Bitbucket are remote repositories.
+
+   * Store code centrally
+   * Collaborate with teams
+   * Example command: `git remote add origin <repo_url>`
+
+3. CI/CD automates build, test, deploy.
+
+   * Tools: Jenkins, GitHub Actions, GitLab CI, CircleCI
+   * Pipeline stages: Source → Build → Test → Deploy → Monitor
+
+4. Docker is used for containerization.
+
+   * Package app + dependencies into containers
+   * Commands: `docker build`, `docker run`, `docker ps`
+
+5. Kubernetes is used for orchestration.
+
+   * Manage multiple containers
+   * Handles scaling, load balancing, self-healing
+   * Components: Pods, Services, Deployments
+
+6. Infrastructure as Code (IaC).
+
+   * Tools: Terraform, Ansible, CloudFormation
+   * Automates provisioning of infrastructure
+
+7. Monitoring & Logging.
+
+   * Tools: Prometheus, Grafana, ELK Stack
+   * Ensures application health and performance
+
+8. Cloud Platforms.
+
+   * AWS, Azure, GCP
+   * Provide infrastructure, managed services, scalability
